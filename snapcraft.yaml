@@ -1,4 +1,4 @@
-name: snapology # you probably want to 'snapcraft register <name>'
+name: hello-berlinski # you probably want to 'snapcraft register <name>'
 version: "v2.0.0"
 summary: this is a test golang app
 description: |
@@ -9,12 +9,12 @@ confinement: strict
 base: core18
 
 parts:
-  snapology:
+  hello-berlinski:
     plugin: go
-    go-importpath: github.com/glower/snapology
+    go-importpath: github.com/glower/hello-berlinski
     source: .
     source-type: git
 
 apps:
-  snapology:
-    command: bin/snapology
+  hello-berlinski:
+    command: bin/hello-berlinski

@@ -6,9 +6,15 @@ description: |
 
 grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs and slots
+base: core18
 
 parts:
   hello-snap:
-    source: .
     plugin: go
     go-importpath: github.com/glower/hello-snap
+    source: .
+    source-type: git
+
+apps:
+  hello-snap:
+    command: bin/hello-snap

@@ -1,5 +1,5 @@
 name: hello-berlinski # you probably want to 'snapcraft register <name>'
-version: "v2.3.0"
+version: "v2.4.1"
 summary: this is a test golang app
 description: |
   Golang hello world app for testing snaps

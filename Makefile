@@ -1,4 +1,4 @@
 GO?=go
 
 run:
-	$(GO) run cmd/hello/main.go
+	$(GO) run cmd/hello-snap/main.go

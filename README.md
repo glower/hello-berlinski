@@ -23,3 +23,4 @@ git push origin v1.0.0
 * snapcraft
 * snapcraft push hello-berlinski_vx.v.z_amd64.snap --release=[candidate,beta,edge]
 * snapcraft release hello-berlinski X stable
+

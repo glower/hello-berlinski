@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-const ver = "v2.5.0-classic"
+const ver = "5.0.0"
 
 func main() {
-	fmt.Printf("Hello Berlinski version %s\n", ver)
+	fmt.Printf("Hello Berlinski version for stage %s\n", ver)
 }

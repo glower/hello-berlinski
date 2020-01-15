@@ -9,8 +9,7 @@ confinement: strict
 
 parts:
   go:
-    source-tag: go1.13
-    source-depth: 1
+    source-tag: go1.13.6
   hello-berlinski:
     plugin: go
     go-importpath: github.com/glower/hello-berlinski

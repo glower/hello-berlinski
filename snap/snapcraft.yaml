@@ -1,12 +1,11 @@
-name: gruz-berlinski
-version: "5.0.0"
+name: snap-test-1
+version: "2.0.0"
 summary: this is a test golang app
 description: |
   Golang hello world app for testing snaps
 
 grade: stable
 confinement: strict
-base: core18
 
 parts:
   hello-berlinski:

@@ -1,7 +1,7 @@
 GO?=go
 
 run:
-	$(GO) run cmd/snapology/main.go
+	$(GO) run cmd/hello-berlinski/main.go
 
 snap:
 	snapcraft

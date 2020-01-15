@@ -8,11 +8,15 @@ grade: stable
 confinement: strict
 
 parts:
+  go:
+    source-tag: go1.13
+    source-depth: 1
   hello-berlinski:
     plugin: go
     go-importpath: github.com/glower/hello-berlinski
     source: .
     source-type: git
+    after: [go]
 
 apps:
   hello-berlinski:

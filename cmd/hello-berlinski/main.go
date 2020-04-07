@@ -4,7 +4,7 @@ import "fmt"
 import "github.com/google/uuid"
 import "github.com/dgrijalva/jwt-go"
 
-const ver = "2.0.1"
+const ver = "7.0.0"
 
 func main() {
 	id := uuid.New()

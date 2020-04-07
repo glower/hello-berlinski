@@ -1,5 +1,5 @@
 name: snap-test-1
-version: "3.0.0"
+version: "7.0.0"
 summary: this is a test golang app
 description: |
   Golang hello world app for testing snaps
